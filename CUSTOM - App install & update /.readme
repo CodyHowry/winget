@@ -1,0 +1,11 @@
+These folders/files contains already premade intune application packages that are being used to install/update applications. You should be able to put the install.intunewin file directly into your intune portal.
+
+The install command: 
+%SystemRoot%\sysnative\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -executionpolicy bypass -command .\install.ps1
+
+
+The uninstall command: 
+%SystemRoot%\sysnative\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -executionpolicy bypass -command .\uninstall.ps1
+
+
+Insert the check.ps1 file into the check portion when creating the app.
